@@ -1,0 +1,176 @@
+body
+{
+    background: url('../assets/sky1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: montserrat;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+.sidenav 
+{
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.sidenav a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+} 
+.sidenav a:hover 
+{
+    color: #f1f1f1;
+}
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 9px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}  
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main 
+{
+    transition: margin-left .5s;
+    padding: 20px;
+}
+@media screen and (max-height: 450px) 
+{
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+img
+{
+    width: 40px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+.topnav 
+{
+    background-color: transparent;
+    overflow: hidden;
+    position: relative;
+    bottom: 10px;
+    height: 60px;
+}
+iframe
+{
+    height: 100%;
+    width: 100%;
+    border: none;    
+}
+.footer
+{
+    position: absolute;
+    height: 110px;
+    top: 100%;
+    width: 69%;
+    padding: 100px 15%;
+    background: rgb(31, 31, 31);
+    color: white;
+    display: flex;
+}
+.footer div
+{
+    text-align: left;
+}
+.col-2
+{
+    flex-grow: 2;
+}
+.footer div h3
+{
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.footer img
+{
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    left: 1.5%;
+    top: 18px;
+}
+form
+{
+    position: absolute;
+    right: 2%;
+    bottom: 30%;
+}
+form input
+{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 24px;
+    outline: none;
+    border: none;
+}
+form button
+{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.col-3
+{
+    position: absolute;
+    right: 23%;
+    bottom: 14%;
+}
+.social-icons i
+{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+.footer p
+{
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+    position: absolute;
+    left: 40%;
+    bottom: 5%;
+}
+.account
+{
+    text-decoration: none;
+    background: transparent;
+    position: absolute;
+    right: 16%;
+    top: 26%;
+    color: black;
+    font-size: larger;
+}
+.account:hover
+{
+    color: white;
+}
+.pfp
+{
+    width: 30px;
+    position: absolute;
+    right: 22.3%;
+    top: 22.5%;
+}

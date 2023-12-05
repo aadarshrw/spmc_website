@@ -1,0 +1,128 @@
+body
+{
+    font-family: montserrat;
+    background-image: url("../assets/white1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.expenses
+{
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.expenses td, .expenses th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.expenses tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+.expenses tr:hover 
+{
+    background-color: #ddd;
+}
+.expenses th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(255, 151, 113);
+    color: white;
+}
+.donations
+{
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.donations td, .donations th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.donations tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+.donations tr:hover 
+{
+    background-color: #ddd;
+}
+.donations th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(255, 151, 113);
+    color: white;
+}
+.subscriptions
+{
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subscriptions td, .subscriptions th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.subscriptions tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+.subscriptions tr:hover 
+{
+    background-color: #ddd;
+}
+.subscriptions th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(255, 151, 113);
+    color: white;
+}
+caption
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+table a
+{
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+table a:hover
+{
+    color: black;
+    background-color: white;
+}
+th
+{
+    width: 200px;
+}
+img
+{
+    width: 40px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    cursor: pointer;
+}

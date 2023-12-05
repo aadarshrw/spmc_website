@@ -1,0 +1,71 @@
+body
+{
+    font-family: montserrat;
+    background-image: url("../assets/white1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.expenses
+{
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.expenses td, .expenses th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.expenses tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+.expenses tr:hover 
+{
+    background-color: #ddd;
+}
+.expenses th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(255, 151, 113);
+    color: white;
+}
+.donations
+{
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.donations td, .donations th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.donations tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+.donations tr:hover 
+{
+    background-color: #ddd;
+}
+.donations th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(255, 151, 113);
+    color: white;
+}
+caption
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}

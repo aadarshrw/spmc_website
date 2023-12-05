@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.gif-container
+{
+    position: absolute;
+    top: 47px;
+    left: 51.5%;
+}
+.text-container
+{
+    color: black;
+    max-width: 600px;
+    margin-top: 8%;
+    margin-left: 6.8%;
+}
+.text-container h1
+{
+    text-align: left;
+}
+.text-container p
+{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 30px;
+}
+.text-container a
+{
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 14px 40px;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.text-container a:hover
+{
+    background: white;
+    color: black;
+}
+img
+{
+    width: 650px;
+}
+.b-container
+{
+    background-color: orangered;
+    height: 490px;
+    width: 95%;
+    position: relative;
+    bottom: 40.5%;
+    left: 25px;
+    z-index: -999;
+    opacity: 65%;
+    border-radius: 20px;
+}

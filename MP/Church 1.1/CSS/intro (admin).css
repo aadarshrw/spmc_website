@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.gif-container
+{
+    position: absolute;
+    top: 100px;
+    right: 65%;
+}
+.text-container
+{
+    color: black;
+    max-width: 600px;
+    margin-top: 10%;
+    margin-left: 47.5%;
+}
+.text-container h1
+{
+    font-size: 80px;
+    font-weight: 400;
+}
+.text-container a
+{
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 14px 40px;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.text-container a:hover
+{
+    background: white;
+    color: black;
+}
+img
+{
+    width: 300px;
+}
+.b-container
+{
+    background-color: grey;
+    height: 490px;
+    width: 95%;
+    position: relative;
+    bottom: 56%;
+    left: 25px;
+    z-index: -999;
+    opacity: 75%;
+    border-radius: 20px;
+}
